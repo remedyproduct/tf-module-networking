@@ -1,3 +1,3 @@
 /**
- * # VPC Networking - Terraform Module
+ * VPC Networking - Terraform Module
  */
