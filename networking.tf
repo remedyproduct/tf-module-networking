@@ -1,4 +1,4 @@
-module "main" {
+module "networking" {
   source  = "cn-terraform/networking/aws"
   version = "2.0.3"
 
