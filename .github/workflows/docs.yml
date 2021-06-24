@@ -4,8 +4,10 @@ on: [push, pull_request]
 jobs:
   docs:
     runs-on: ubuntu-latest
+    name: Generate Terraform Docs
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout Code
+      uses: actions/checkout@v2
     - name: Render Terraform Docs
       uses: terraform-docs/gh-actions@v0.6.0
       with:
