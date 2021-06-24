@@ -1,7 +1,7 @@
 # Usage
 
 <!--- BEGIN_TF_DOCS --->
-# VPC Networking - Terraform Module
+VPC Networking - Terraform Module
 
 ## Requirements
 
