@@ -1,3 +1,3 @@
 /**
- * # AWS Network (VPC, Subnets, Gateways) - Terraform Module
+ * # VPC Networking - Terraform Module
  */
