@@ -31,8 +31,8 @@ No resources.
 | aws\_region | AWS Region network will be deployed to | `string` | `"us-east-1"` | no |
 | environment | Environment (development, qa, live, etc.) | `string` | `"development"` | no |
 | name | VPC Name | `string` | n/a | yes |
-| private\_subnets\_cidrs\_per\_availability\_zone | CIDR block for Private Subnets. Number of blocks must match the number of Availability Zones | `string` | <pre>[<br>  "192.168.128.0/19",<br>  "192.168.160.0/19"<br>]</pre> | no |
-| public\_subnets\_cidrs\_per\_availability\_zone | CIDR block for Public Subnets. Number of blocks must match the number of Availability Zones | `string` | <pre>[<br>  "192.168.0.0/19",<br>  "192.168.32.0/19"<br>]</pre> | no |
+| private\_subnets\_cidrs | CIDR block for Private Subnets. Number of blocks must match the number of Availability Zones | `string` | <pre>[<br>  "192.168.128.0/19",<br>  "192.168.160.0/19"<br>]</pre> | no |
+| public\_subnets\_cidrs | CIDR block for Public Subnets. Number of blocks must match the number of Availability Zones | `string` | <pre>[<br>  "192.168.0.0/19",<br>  "192.168.32.0/19"<br>]</pre> | no |
 | vpc\_cidr\_block | Primary CIDR block for the VPC | `string` | `"192.168.0.0/16"` | no |
 
 ## Outputs
