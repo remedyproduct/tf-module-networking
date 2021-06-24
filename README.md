@@ -17,7 +17,7 @@ No provider.
 
 | Name | Source | Version |
 |------|--------|---------|
-| main | cn-terraform/networking/aws | 2.0.3 |
+| networking | cn-terraform/networking/aws | 2.0.3 |
 
 ## Resources
 
