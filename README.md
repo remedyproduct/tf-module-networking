@@ -1,7 +1,7 @@
 # Usage
 
 <!--- BEGIN_TF_DOCS --->
-# AWS Network (VPC, Subnets, Gateways) - Terraform Module
+# VPC Networking - Terraform Module
 
 ## Requirements
 
