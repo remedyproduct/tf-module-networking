@@ -11,7 +11,9 @@ VPC Networking - Terraform Module
 
 ## Providers
 
-No provider.
+| Name | Version |
+|------|---------|
+| aws | ~> 3.46.0 |
 
 ## Modules
 
@@ -21,7 +23,9 @@ No provider.
 
 ## Resources
 
-No resources.
+| Name |
+|------|
+| [aws_region](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region) |
 
 ## Inputs
 
