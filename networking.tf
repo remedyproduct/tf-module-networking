@@ -2,7 +2,7 @@ data "aws_region" "current" {}
 
 module "networking" {
   source  = "cn-terraform/networking/aws"
-  version = "2.0.3"
+  version = "2.0.13"
 
   name_preffix = substr(format("%s-%s", var.name, var.environment), 0, 32)
 
