@@ -19,7 +19,7 @@ VPC Networking - Terraform Module
 
 | Name | Source | Version |
 |------|--------|---------|
-| networking | cn-terraform/networking/aws | 2.0.3 |
+| networking | cn-terraform/networking/aws | 2.0.13 |
 
 ## Resources
 
